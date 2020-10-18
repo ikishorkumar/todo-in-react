@@ -1,0 +1,7 @@
+.userInput input{
+    padding: 5px 10px 2px 10px !important;
+    color: white;
+    font-weight: 900;
+    background: linear-gradient(to top left, #0a684c 5%, #21eb75 96%);
+    border-radius: 5px !important;
+}

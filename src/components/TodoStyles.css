@@ -1,0 +1,36 @@
+.todoitem{
+    display: flex !important;
+    width: 300px !important;
+    text-align: justify;
+    background-color: rgba(8, 94, 75, 0.582);
+    padding: 8px;
+    border-radius: 6px;
+    /* font-size: 18px !important; */
+    border-bottom:  2px solid !important;
+    margin-bottom: 2px !important;
+   
+}
+.todoitem input{
+    width: fit-content !important;
+    margin:  auto !important; 
+    font-size: x-large !important;
+}
+h2{
+    margin:  auto !important;
+    width: 180px !important;
+    color: white !important;
+}
+button{
+    padding: 10px !important;
+    width: fit-content !important;
+    margin: auto !important;
+    background-color: rgb(236, 42, 42) !important;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+}
+button:hover{
+    background-color: rgb(212, 39, 39) !important;
+
+}
