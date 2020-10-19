@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import firebase from '../config/firebase.js'
 class Todo extends Component {
     constructor() {
         super();
@@ -21,6 +21,7 @@ class Todo extends Component {
         let obj = {
             title: this.state.value
         }
+        firebase.database().ref('/').child("todos").push(obj);
 
         // when you have only arry in the state to render : then try to replace the obj with  this.state.value and comment the above obj
         if (this.state.value !== '') {
@@ -109,9 +110,6 @@ class Todo extends Component {
                     </ul>
 
                 </div>
-
-
-
             </div>
         )
     }
