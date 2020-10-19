@@ -1,15 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import TodosList from './components/TodosList';
-import UserInputComponent from './components/UserInputComponent';
+import Todo from './components/Todo';
 
 function App() {
   return (
     <div className="App">
-      <UserInputComponent/>
-      <hr/>
-      <TodosList/>
+      <Todo/>
     </div>
   );
 }
